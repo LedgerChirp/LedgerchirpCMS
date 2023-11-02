@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "below_services",
+  "info": {
+    "singularName": "below-service",
+    "pluralName": "below-services",
+    "displayName": "Below_service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Start_Heading": {
+      "type": "string"
+    },
+    "Last_Heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "see_more_button": {
+      "type": "string"
+    },
+    "see_more_button_link": {
+      "type": "string"
+    }
+  }
+}
